@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.navbar img[src*=flag_russia_rus]{
+    width: 200px;
+    height: auto;
+}
+@media (max-width: 600px) {
+    .slider{
+        display: none;
+    }
+}
+.navbar p{
+    margin-left: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+
+}
+.navbar p:hover{
+    font-size: 40px;
+    cursor: pointer;
+}
+.main_start_form{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+    right: 5%;
+}
+.main_start_form p{
+    margin: 150px 0px 0px 200px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 100;
+    color: black;
+    position: relative;
+    right: 5%;
+}
+.main_start_form img[src*=school]{
+    width: 800px;
+    border-radius: 40px;
+    height: auto;
+}
+.slider{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.slider img{
+    width: 1500px;
+    height: auto;
+    left: 11%;
+    position: relative;
+}
+.slider .text_image p{
+    position: absolute;
+    left: 20%;
+    top: 80%;
+    color: white;
+    font-size: bolder;
+    font-size: 50px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.699);
+    padding: 20px;
+}
+.why_we_block{
+    text-align: center;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.why_we_block p{
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+}
+.why_we_block p:last-child{
+    font-size: 90px;
+}
+.proofs_we{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.proofs_we .inside_proofs:hover{
+    cursor: pointer;
+}
+.proofs_we .inside_proofs{
+    text-align: left;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.proofs_we .inside_proofs p:first-child{
+    position: relative;
+    left: 10%;
+}
+.proofs_we .numbers{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 70%;
+}
+.proofs_we .numbers p{
+    margin-top: 150px;
+    border: 4px solid black;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 120px;
+}
+button[class=buy_button]{
+    text-align: center;
+    background-color: green;
+    font-size: 60px;
+    padding: 20px;
+    font-weight: bolder;
+    color: white;
+    display: block;
+    border: 4px solid green;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+button[class=buy_button]:hover{
+    cursor: pointer;
+}
+.our_plan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.our_plan .card_plan{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 30px;
+}
+.our_plan .card_plan p{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.our_plan .card_plan p:first-child{
+    font-size: 45px;
+    background-color: green;
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+}
+.card_plan:hover{
+    cursor: pointer;
+}
+.card_plan button{
+    margin: 30px;
+    font-size: 30px;
+}
+.card_plan button:hover{
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.our_team{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.our_team .card_team{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.our_team .card_team img{
+    min-height: 600px;
+    max-height: 600px;
+    width: 450px;
+}
+.our_team .card_team:first-child img{
+    width: 350px;
+}
+.our_team .card_team h1{
+    text-align: center;
+}
+.our_team .card_team:not(:first-child){
+    margin-left: 100px;
+}
+.our_team .card_team{
+    max-width: 400px;
+    height: auto;
+}
+.our_team_title{
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+}
+.video_trailer iframe{
+    margin: 0 auto;
+    position: block;
+    display: block;
+}
+.questions_block{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: blanchedalmond;
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+    max-width: max-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid black;
+    border-radius: 40px;
+}
+.questions_block input{
+    padding: 20px;
+    font-size: 50px;
+    max-width: 700px;
+    border: 4px solid black;
+    border-radius: 40px;
+}
+.questions_block p{
+    font-size: 60px;
+}
+
+.reviews_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.reviews_cards .review_card{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    color: black;
+    font-weight: bolder;
+    border: 4px solid black;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+.reviews_cards .review_card:hover{
+    cursor: pointer;
+}
+.reviews_cards .review_card p{
+    font-size: 25px;
+}
+.reviews_title{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.video_trailer_title{
+    text-align: center;
+    font-size: 40px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    background-color: rgb(39, 35, 35);
+}
+.footer .block_footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 50px;
+    margin-left: 90px;
+}
+.footer .block_footer h1{
+    font-size: 50px;
+}
+.footer .block_footer p{
+    font-size: 25px;
+}
+.footer .block_footer img{
+    max-width: 250px;
+    height: auto;
+    background-color: rgb(58, 57, 57);
+    padding: 20px;
+    border-radius: 30px;
+}
+.limited_offer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.limited_offer h1{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.limited_offer p:not(:last-child){
+    font-size: 60px;
+    font-weight: bolder;
+    border: 12px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: max-content;
+}
+.limited_offer p{
+    font-size: 60px;
+}
